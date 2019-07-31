@@ -16,6 +16,12 @@
      font-family: 'Lora', serif;
      margin: 20px;
    }
+
+   @media screen and (max-width: 320px) {
+     ul  {
+       display: none;
+     }
+   }
   /* orangey: #d49d5f
   yellow: #f5d68e
   light blue: #afdbca
@@ -38,12 +44,15 @@
     padding-right: 50px;
   }
 
+  .navbar {
+    background-color:black;
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:black;
   }
   
   li {
@@ -64,6 +73,7 @@
 
   footer {
     padding: 1% 0;
+    background-color: gray;
     /* background-color:#426375; */
     /* color: white; */
   }
@@ -88,4 +98,6 @@
   section:nth-child(even) {
     background-color: #ddd;
   }
+
+
   
