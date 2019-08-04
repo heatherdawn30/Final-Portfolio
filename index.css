@@ -14,11 +14,28 @@
   }
    p {
      font-family: 'Lora', serif;
-     margin: 20px;
+     margin: auto;
+     width: 800px;
+     text-align: center;
    }
 
-   @media screen and (max-width: 320px) {
-     ul  {
+   @media screen and (max-width: 450px) {
+    .hamburger {
+      padding-right:10px;
+      float: right;
+      display: inline-block;
+      background-color: black;
+    }
+     p {
+       width: 200px;
+     }
+     li, a {
+       display: none;
+     }
+   }
+
+   @media screen and (min-width: 450px) {
+     .hamburger {
        display: none;
      }
    }
@@ -40,9 +57,7 @@
     /* border-radius: 50px; */
   }
   
-  a {
-    padding-right: 50px;
-  }
+ 
 
   .navbar {
     background-color:black;
@@ -70,6 +85,7 @@
   li a:hover {
     background-color:#afdbca;
   }
+
 
   footer {
     padding: 1% 0;
