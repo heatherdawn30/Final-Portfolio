@@ -1,17 +1,20 @@
 * {
     box-sizing: border-box;
   }
-  /*
-  font-family: 'Lora', serif;
+  
+  /*font-family: 'Lora', serif;
   font-family: 'Open Sans Condensed', sans-serif;
-*/
-  body {
-    font-family: 'Open Sans Condensed', italic;
+  */
+body {
+  font-family: 'Open Sans Condensed', italic;
     font-size: 20px;
     color: #444;
     text-align: center;
     line-height: 1.5;
-  }
+}
+h1 {
+  text-align: center;
+}
    p {
      font-family: 'Lora', serif;
      margin: auto;
@@ -19,19 +22,29 @@
      text-align: center;
    }
 
+   a {
+     padding-right: 10px;
+     text-align: center;
+   }
+
    @media screen and (max-width: 450px) {
-    .hamburger {
-      padding-right:10px;
-      float: right;
-      display: inline-block;
-      background-color: black;
+    .info {
+      text-align: center;
     }
      p {
        width: 200px;
      }
-     li, a {
-       display: none;
-     }
+
+     .hero {
+      width: 75%;
+    }
+    .disneyQuizApp {
+      width: 75%;
+    }
+    footer {
+      text-align: center;
+      font-size: 75%;
+    }
    }
 
    @media screen and (min-width: 450px) {
@@ -39,28 +52,15 @@
        display: none;
      }
    }
-  /* orangey: #d49d5f
+  /*orangey: #d49d5f
   yellow: #f5d68e
   light blue: #afdbca
   green/blue: #5a8a77
-  dark blue: #426375
- 
-  @media screen and (max-width: 450px) {
-    img {
-      width: 50%;
-      height: 50%;
-    }
-   */
-  }
-  img {
-    text-align: center;
-    /* border-radius: 50px; */
-  }
-  
+  dark blue: #426375*/
  
 
   .navbar {
-    background-color:black;
+    background-color:#426375; 
   }
 
   ul {
@@ -89,9 +89,8 @@
 
   footer {
     padding: 1% 0;
-    background-color: gray;
-    /* background-color:#426375; */
-    /* color: white; */
+    background-color:#426375; 
+    color: white; 
   }
   
   nav {
@@ -114,6 +113,7 @@
   section:nth-child(even) {
     background-color: #ddd;
   }
+  */
 
 
   

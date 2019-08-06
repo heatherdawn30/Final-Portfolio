@@ -4,48 +4,49 @@
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <nav class="navbar">
-        <div class="hamburger">&#9776;</div>
-            <ul>
-                <li><a href="links.asp">Links</a></li>
-                <li><a href="contactinfo.asp">Contact Info</a></li>
-                <li><a href="portfolio.asp">Portfolio</a></li>
-                <li><a href="about.asp">About</a></li> 
+            <ul class = info>
+                <li><a href="#Contact-info-div" id= "letsGo">Contact Info</a></li>
+                <li><a href="#Portfolio-div" id= "letsGo">Portfolio</a></li>
+                <li><a href="#About-div" id= "letsGo">About</a></li> 
             </ul>
     </nav>
     <main role="main">
         <header role="banner">
             <h1>Full Stack Dev Heath</h1>
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a>
+            <img class=hero src="hero.png" alt= "Web Developer Joke, when you delete a block of code you thought was">
         </header>
 
-        <section>
+        <div id= "About-div">
             <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, ut mei quod expetenda. Per cu prima ridens. Cu deleniti urbanitas sit, 
-                    ullum aliquid expetenda no vix, an animal mediocrem voluptatibus vim. Ne suas ullamcorper sit, an 
-                    mel mazim affert recusabo, an qui porro decore comprehensam. Nec wisi meliore ocurreret et, vel no 
-                    exerci percipit.</p>
+                <p>I am a Web Developer and recent graduate of the Full Stack Developer program at Bloc. I enjoy 
+                    coding because I like finding unique solutions to problems, and enjoy a challenge. I am also 
+                    extremely personable, determined, and work well with others.</p><br>
 
-                <p>Tota nihil ea vel, labitur ancillae officiis an pro. Duo te intellegam liberavisse. Te homero pertinax aliquando 
-                    vis. Qui et viderer vituperatoribus. Sed omnes maiorum fastidii id, in qui graecis neglegentur, vim cu causae 
-                    facilisi evertitur.</p>
-        </section>
+                <p>Outside of coding I enjoy hiking, reading Fantasy novels, and playing with my three awesome boys.</p>
+        </div>
 
-        <section>
+        <div id = "Portfolio-div">
             <h1>Portfolio</h1>
-            <p>Title</p>
-            <p>Tota nihil ea vel, labitur ancillae officiis an pro. Duo te intellegam liberavisse. Te homero pertinax aliquando
-                 vis. Qui et viderer vituperatoribus. Sed omnes maiorum fastidii id, in qui graecis neglegentur, vim cu causae 
-                 facilisi evertitur.</p>
-                 <a href="https://placeholder.com"><img src="https://via.placeholder.com/150"></a><br>
-            <a href=" ">Live Page</a> 
-            <a href=" ">Github Repo</a>
-        </section>
+            <h1>Disney Quiz App</h1>
+            <img class=disneyQuizApp src=disneyquizapp.png alt= "Disney Quiz App"><br>
+            <a href="https://heatherdawn30.github.io/disney-quiz-app-final/">Live Page</a> 
+            <a href="https://github.com/heatherdawn30/disney-quiz-app-final">Github Repo</a>
+            <p>I designed a short quiz to see how familiar individuals are with Disney movies (both classic and more
+                recent). I used HTML and CSS to achieve a simple, clean design. JavaScript and jQuery were successfully
+                used on the backend.</p>
+        </div>
     </main>
-    <footer role="content-info">Contact Info/Github Link</footer>
+    <footer id="Contact-info-div">
+        <h2>I love to receive mail at heather.d.boatwright@gmail.com</h2>
+        <a href="https://github.com/heatherdawn30"><img class=github src="github.png" alt= "Github"></a>
+        <a href="https://www.linkedin.com/in/heather-boatwright-b27b7950/"><img class=linkedin src="linkedin.png" width= 45px alt= 
+            "Linkedin"></a>
+    </footer>
 </body>
 </html>
